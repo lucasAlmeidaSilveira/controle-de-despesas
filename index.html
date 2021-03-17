@@ -30,9 +30,7 @@
       <h3>Transações</h3>
       
       <ul id="transactions" class="transactions">
-        <!-- <li class="minus">
-          Salário <span>-$400</span><button class="delete-btn">x</button>
-        </li> -->
+        
       </ul>
 
       <h3>Adicionar transação</h3>
@@ -47,13 +45,13 @@
           <label for="amount">Valor <br />
             <small>(negativo - despesas, positivo - receitas)</small>
           </label>
-          <input type="number" id="amount" placeholder="Valor da transação" />
+          <input type="number" step="0.01" id="amount" placeholder="Valor da transação" />
         </div>
 
         <button class="btn">Adicionar</button>
       </form>
     </div>
 
-    <script src="script.js"></script>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>

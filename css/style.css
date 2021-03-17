@@ -81,6 +81,7 @@ label {
 input[type='text'],
 input[type='number'] {
   border: 1px solid #dedede;
+  outline-color: #9b75d8;
   border-radius: 2px;
   display: block;
   font-size: 16px;
